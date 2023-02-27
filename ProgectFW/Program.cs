@@ -15,8 +15,7 @@ Console.WriteLine("Введите хоть что-нибудь, через за�
 CreateStroka();
 void CreateStroka()
 {
-    string stroka = string.Empty;
-    stroka = Console.ReadLine()!;
+    string stroka = Console.ReadLine()!;
     string[] N;
     N = stroka.Split(',');
     var result = new string[N.Length];
